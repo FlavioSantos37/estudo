@@ -5,9 +5,9 @@ function cliques(){
     const nome  = document.querySelector('.n').value
     const t = document.querySelector('.rs')
     if (nome === usuario){
-        t.innerHTML = 'acesso liberado'
+        t.innerHTML = 'Acesso Liberado'
     } 
-    else t.innerHTML = 'acesso negado'
+    else t.innerHTML = 'Acesso Negado'
       
          
 }
